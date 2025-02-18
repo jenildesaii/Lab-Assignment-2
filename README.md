@@ -4,18 +4,10 @@ To run this project, we need Node.js installed. After downloading the repository
 
 Prerequisites
 
-To run this project, ensure you have:
+To run this project, ensure we have:
 Node.js installed (Check with node -v)
 A terminal or command-line interface to execute scripts
 A text editor like VS Code or Sublime Text for modifying code if needed
-
-Installation & Running
-
-Clone or download the repository.
-Open a terminal and navigate to the project folder:
-cd /path/to/lab2-js-frameworks
-Run the script using:
-node app.js
 
 Greet Users
 Prints a personalized welcome message for three users.
