@@ -2,8 +2,7 @@ This project shows how to use JavaScript's ES6 module imports and exports. It ha
 
 To run this project, we need Node.js installed. After downloading the repository, navigate to the project folder using the terminal and run node app.js to execute the script.
 
-Prerequisites
-
+Aspects initiales
 To run this project, ensure we have:
 Node.js installed (Check with node -v)
 A terminal or command-line interface to execute scripts
