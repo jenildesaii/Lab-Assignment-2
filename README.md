@@ -1,43 +1,34 @@
-Project Overview
+This project shows how to use JavaScript's ES6 module imports and exports. It has features for generating random numbers, converting kilometres to miles, computing reduced rates, and welcoming users. Learning how to compose reusable functions and practicing modular JavaScript programming are the objectives.
 
-This project demonstrates the use of ES6 module imports and exports in JavaScript. The script includes functions to greet users, calculate discounted prices, convert kilometers to miles, and generate random numbers.
+To run this project, we need Node.js installed. After downloading the repository, navigate to the project folder using the terminal and run node app.js to execute the script.
 
 Prerequisites
 
-Before running the project, ensure you have the following installed:
+To run this project, ensure you have:
+Node.js installed (Check with node -v)
+A terminal or command-line interface to execute scripts
+A text editor like VS Code or Sublime Text for modifying code if needed
 
-Node.js (Check installation using node -v)
+Installation & Running
 
-Project Structure
+Clone or download the repository.
+Open a terminal and navigate to the project folder:
+cd /path/to/lab2-js-frameworks
+Run the script using:
+node app.js
 
-lab2-js-frameworks/
-│-- app.js          # Main JavaScript file that imports and uses functions from utils.js
-│-- utils.js        # Utility functions for greeting, price calculation, conversion, and random numbers
-│-- package.json    # Project metadata and module type declaration
-│-- README.md       # Documentation for the project
+Greet Users
+Prints a personalized welcome message for three users.
+Helps demonstrate the use of function parameters and console output.
 
-Installation
+Price Calculation
+Computes the final price after applying a given discount percentage.
+Useful for understanding arithmetic operations and function return values.
 
-greet(firstName1, firstName2, firstName3)
+Distance Conversion
+Converts a given distance from kilometers to miles using a conversion factor.
+Enhances knowledge of mathematical operations in JavaScript.
 
-Greets three users by name.
-
-Example Output: Welcome Jenil, Krish, and Dharm
-
-calculatePrice(price, discount)
-
-Calculates the final price after applying a discount.
-
-Example Output: The price of the product after a 20% discount is: $80
-
-convertKilometersToMiles(kilometers)
-
-Converts kilometers to miles.
-
-Example Output: 50 kilometers is equal to 31.06855 miles
-
-randomNumber(min, max)
-
-Generates a random number between the given range.
-
-Example Output: Random number between 1 and 100: 57
+Random Number Generator
+Generates a random number within a specified range.
+Demonstrates the use of JavaScript’s Math.random() function and rounding techniques.
